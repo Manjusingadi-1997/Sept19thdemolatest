@@ -3,7 +3,6 @@
   <HelloWorld msg="Welcome to Vue.js Assignment" />
   <EventTrigger />
   <TwoWayBinding />
-  <GetInputValue />
   <ChildComp />
   <ForLoop />
   <IfElseCondition />
@@ -23,7 +22,6 @@
 import HelloWorld from './components/HelloWorld.vue'
 import EventTrigger from './components/EventTrigger.vue';
 import TwoWayBinding from './components/TwoWayBinding.vue';
-import GetInputValue from './components/GetInputValue.vue';
 import ChildComp from './components/ChildComp.vue';
 import ForLoop from './components/ForLoop.vue';
 import IfElseCondition from './components/IfElseCondition.vue';
@@ -39,7 +37,6 @@ export default {
     HelloWorld,
     EventTrigger,
     TwoWayBinding,
-    GetInputValue,
     ChildComp,
     ForLoop,
     IfElseCondition,
